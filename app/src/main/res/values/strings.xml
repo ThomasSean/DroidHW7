@@ -10,5 +10,7 @@
     <string name="clearButton">Clear</string>
     <string name="modeButton">Mode</string>
     <string name="title">Length Converter</string>
-    <string name="title_activity_my_settings">Settings</string> s
+    <string name="title_activity_my_settings">Settings</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    s
 </resources>
