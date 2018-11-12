@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         calcButton.setOnClickListener(v -> {
             doConversion();
             HistoryContent.HistoryItem item = new HistoryContent.HistoryItem(Double.parseDouble(fromField.getText().toString()), Double.parseDouble(toField.getText().toString()), mode.toString(),
-                    toUnits.toString(), fromUnits.toString(), DateTime.now());
+                    toUnits.getText().toString(), fromUnits.getText().toString(), DateTime.now());
             HistoryContent.addItem(item);
         });
 
